@@ -44,7 +44,7 @@ Get all items in this order defined by refId
 Parameters
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|refId|Integer|ReferenceId aka OrderId|
+|refId|Integer|Yes|ReferenceId aka OrderId|
 
 ### /item/downloadAllFiles/{itemId}
 Download ALL files for an item.  Can be from shipment and design process.
@@ -57,7 +57,7 @@ Download ALL files for an item.  Can be from shipment and design process.
 Parameters
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
-|itemId|Integer|itemId provided when placing order|
+|itemId|Integer|Yes|itemId provided when placing order|
 
 ## Order based endpoints
 
