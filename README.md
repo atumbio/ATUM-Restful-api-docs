@@ -161,3 +161,7 @@ Get all payment methods in account(not not just contact)
   - get
 - Output
   - json
+
+Parameters
+|Name|Type|Required|Description|
+|----|----|--------|-----------|
