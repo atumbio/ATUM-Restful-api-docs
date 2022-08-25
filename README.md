@@ -28,8 +28,8 @@ Get the item status based upon itemIds passed in.
 
 Parameters
 |Name|Type|Required|Description|
-|----|----|Required|-----------|
-|itemIds|Integer[]|Yes|Item ids in order
+|----|----|--------|-----------|
+|itemIds|Integer[]|Yes|Item ids in order|
 |include|String[]|No|Options that will trigger more information to be present</br><ul><li>shippingContainers</li><li>designInfo</li><li>clonedSequence</li><li>clonedSequenceLength</li><li>requestVectorName</li><li>shippedVectorName</li></ul>|
 
 
@@ -99,6 +99,20 @@ Parameters
 |Name|Type|Required|Description|
 |----|----|--------|-----------|
 |refId|Integer|Yes|ReferenceId aka OrderId|
+
+### /reports/gene-info/order/{referenceId}
+Get gene information for order placed
+
+- Request method
+  - get
+- Output
+  - json
+
+Parameters
+|Name|Type|Required|Description|
+|----|----|--------|-----------|
+|referenceId|Integer|Yes|ReferenceId aka OrderId|
+
 
 ## Vector based endpoints
 
