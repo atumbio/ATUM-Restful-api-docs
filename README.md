@@ -2,7 +2,9 @@
 
 ## Introduction
 
-ATUM has provided access to certain data regarding items/orders/shipments.  We'll be going over those endpoints and how to use them.  ReferenceId and Order are interchangable and mean the same thing.
+ATUM has provided access to certain data regarding items/orders/shipments.  We'll be going over those endpoints and how to use them.  ReferenceId and Order are interchangable and mean the same thing. 
+
+Authorization for these end points uses http basic username password authentication.
 
 ## Item based endpoints
 
