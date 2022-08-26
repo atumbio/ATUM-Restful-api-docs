@@ -6,6 +6,9 @@ ATUM has provided access to certain data regarding items/orders/shipments.  We'l
 
 Authorization for these end points uses http basic username password authentication.
 
+Base url:
+**https://www.atum.bio/eCommerce/restful**
+
 ## Item based endpoints
 
 ### /reports/all-ordered-items.csv
